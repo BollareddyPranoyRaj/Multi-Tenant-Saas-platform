@@ -20,7 +20,7 @@ services:
     build: ./backend
     container_name: backend
     ports:
-      - "5000:5000"
+      - "5001:5000"
     environment:
       DB_HOST: database
       DB_PORT: 5432
